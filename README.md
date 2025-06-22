@@ -1,3 +1,5 @@
+# `context-menu-items`
+
 > [!note]
 >
 > There are **different context menus** when right-clicking on...\
@@ -7,12 +9,14 @@
 >
 > The scripts will affect both types of context menus when applicable.
 
-# Running scripts
+Unfortunately, you have to manually check the file's contents to make edits.
 
-Running `.bat` files requires <u>admin rights</u> and <u>restarting `explorer.exe`</u>.\
-Running `.reg` files does not need those (^) requirements.
+-   Running `.bat` files requires <u>admin rights</u> and <u>restarting File Explorer</u>.
 
-# Reordering context menu items
+-   Running `.reg` files does not need those (^) requirements.
 
-Run `99 Reorder.bat` to reorder the context menu items.\
-Check its contents to see its details and edit.
+-   Run `99-reorder.bat` to reorder the context menu items.
+
+# `file-explorer-open-at-downloads`
+
+Toggle File Explorer to open at "This PC" or "Downloads" by default.
